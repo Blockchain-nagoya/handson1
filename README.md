@@ -25,6 +25,7 @@ URL: https://truffleframework.com/boxes/react
 https://gateway.ipfs.io/ipfs/QmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowf/
 
 ropsten: 0x02bcd02769d114c585c31cd3ca174902fa927200
+
 kovan: 0xc0c73815100ac22b86fab1117dbef932ceed4ae8
 
 ropsten,kovanで公開してます。
