@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.5.2",
+    "react-copy": "^1.2.1",
+    "react-dom": "^16.5.2",
+    "react-materialize": "^2.4.7",
+    "react-qr-reader": "^2.1.1",
+    "react-scripts": "2.0.5",
+    "thread-loader": "^1.2.0",
+    "truffle-contract": "^4.0.0-next.0",
+    "web3": "1.0.0-beta.36"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "link-contracts": "run-script-os",
+    "link-contracts:linux:darwin": "cd src && ln -s ../../build/contracts contracts",
+    "link-contracts:win32": "cd src && mklink \\D contracts ..\\..\\build\\contracts"
+  },
+  "devDependencies": {
+    "run-script-os": "^1.0.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

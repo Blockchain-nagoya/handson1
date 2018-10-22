@@ -1,0 +1,196 @@
+.App {
+}
+/* 
+@color
+  black 87% #111;
+  rgba(1, 1, 1, .87);
+
+  black 54% #111;
+  rgba(1, 1, 1, .54);
+
+  black 37% #111;
+  rgba(1, 1, 1, .38);
+
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background:  #eeeeee; 
+}
+@media only screen and (min-width: 993px) {
+  .App.container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .App.container {
+    width: 100%;
+  }
+}
+.App.container {
+  max-width: 6000px;
+  width: 100%;
+  height: 100vh;
+}
+
+/* talk */
+.talk .card-content {
+  padding: 6px !important;
+  height: 72vh !important;
+}
+.talk .card .card-title {
+  color: rgba(1, 1, 1, .87) !important;
+  font-weight: 500 !important;
+}
+.talk ul li {
+  color: rgba(1, 1, 1, .87);
+  font-weight: 400;
+}
+.talk ul li span {
+  color: rgba(1, 1, 1, .54);
+  font-size: .5rem;
+  display: inline;
+  padding: 0 6px;
+}
+.talk .card-action {
+  padding: 6px;
+}
+.talk .card-action .col .row  {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.talk .card-action .row {
+  margin-bottom: 0;
+}
+.talk .card-action .input-field {
+  margin-bottom: 0;
+}
+.talk .input-field .btn {
+  background-color: #ff9800;
+}
+.talk .input-field .btn:hover {
+  background-color: #ff9800;
+}
+.talk .input-field input[type=text]:not(.browser-default):focus:not([readonly]),
+.talk .input-field input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus {
+  border-bottom: #ff9800;
+  box-shadow: 0 1px 0 0 #ff9800;
+}
+/* /talk */
+
+/* wallet */
+.wallet .card-content .card-title {
+  font-weight: 400;
+  color: #ff9800;
+}
+.wallet .card-content .card-title.second {
+  color: rgba(1, 1, 1, .87);
+  font-weight: 500;
+  font-size: 2.4rem;
+  padding: .6rem 0;
+}
+.wallet .info p {
+  color: rgba(1, 1, 1, .54);
+  font-weight: 500;
+  padding: .15rem 0;
+}
+.wallet .info p span {
+  color: rgba(1, 1, 1, .87);
+  padding-left: 1rem;
+}
+.wallet .accounts {
+  margin: 1.8rem 0;
+}
+.wallet .card-content .accounts .card-title {
+  color: rgba(1, 1, 1, .87);
+}
+.wallet .accounts .address {
+  color: rgba(1, 1, 1, .37);
+}
+.wallet .accounts .balance {
+  color: rgba(1, 1, 1, .54);
+  font-size: 2.4rem;
+}
+
+ .action {
+  margin-top: 1.8rem;
+}
+.action .btn {
+  width: 120px;
+  height: 54px;
+  padding: 18px;
+  line-height: 16px;
+  border-radius: 30px;
+  background-color: #ff9800;
+}
+.action .btn:focus,
+.action .btn:active,
+.action .btn:hover {
+  background-color: #ff9800;
+}
+/* /wallet */
+
+/* Transfer */
+.Transfer .btn {
+  width: 120px;
+  height: 54px;
+  padding: 18px;
+  line-height: 16px;
+  border-radius: 30px;
+  background-color: #ff9800;
+}
+.Transfer .btn:focus,
+.Transfer .btn:active,
+.Transfer .btnhover {
+  background-color: #ff9800;
+}
+.Transfer .modal .modal-footer {
+  text-align: center !important;
+}
+.Transfer .QR.btn {
+  background-color: #ff990073;
+}
+/* /Transfer */
+
+.receive .copy span {
+  font-size: 12px;
+}
+
+
+
+
+
+.App .row .col {
+  padding: 0;
+}
+ul.tabs.main-tab.z-depth-1 {
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+
+/*
+.row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+  min-height: 1px;
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+.container {
+  max-width: 1280px;
+  width: 90%;
+}
+*/

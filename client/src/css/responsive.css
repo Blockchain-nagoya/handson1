@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+  
+}
+@media screen and (max-width: 730px) {
+  .wallet .info p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .receive .copy span {
+    font-size: 10px;
+  }
+  .modal .QR.enter {
+    display: none;
+  }
+}
+@media screen and (max-width: 370px) {
+  .wallet .info p {
+    font-size: 9px;
+  }
+  .wallet .info p span {
+    padding-left: .2rem;
+  }
+  .wallet .accounts .address {
+    font-size: 12px;
+  }
+  .receive .copy span {
+    display: none;
+  }
+}
+@media screen and (max-width: 330px) {
+  .wallet .accounts .address {
+    font-size: 9px;
+  }
+  .wallet .accounts .balance {
+    font-size: 1.8rem
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /*
+  .container {
+    width: 50% !important;
+  }
+  */
+}
