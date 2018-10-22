@@ -1,20 +1,27 @@
-#Blockchain-Nagoya Hands-on #1
+# Blockchain-Nagoya Hands-on #1
 
-##base
-truffle react-box     https://truffleframework.com/boxes/react
+## base
+truffle react-box
+URL: https://truffleframework.com/boxes/react
 
-##使うもの
+## 使うもの
 ・node v10.12.0
-・truffle               https://truffleframework.com/
-・openzeppelin-solidity             https://openzeppelin.org/
-・metamask            https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=ja
-・infura            https://infura.io/
-・ipfs              https://ipfs.io/
+
+・truffle URL: https://truffleframework.com/
+
+・openzeppelin-solidity URL: https://openzeppelin.org/
+
+・metamask URL: https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=ja
+
+・infura URL: https://infura.io/
+
+・ipfs URL: https://ipfs.io/
 
 
-###ContractAddress
+### ContractAddress
 
 実際の成果物
+
 https://gateway.ipfs.io/ipfs/QmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowf/
 
 ropsten: 0x02bcd02769d114c585c31cd3ca174902fa927200
@@ -22,7 +29,7 @@ kovan: 0xc0c73815100ac22b86fab1117dbef932ceed4ae8
 
 ropsten,kovanで公開してます。
 
-##流れ
+## 流れ
 
 ### 1 truffle インストール
 
@@ -37,16 +44,18 @@ yarn add truffle
 ```
 
 ### 2 githubからインストール
-https://github.io/Blockchain-Nagoya/hands-on1/
+
+https://github.com/Blockchain-nagoya/handson1.git
 
 ```
-git clone https://github.io/Blockchain-Nagoya/hands-on1/
+git clone https://github.com/Blockchain-nagoya/handson1.git
 ```
 
 
 ### 3 パッケージインストール
 
 ・openzeppelin-solidity v2.0.0
+
 ・truffle-hdwallet-provider v0.0.6
 
 ```
@@ -116,7 +125,7 @@ or
 yarn run start
 ```
 
-###10 build
+### 10 build
 
 ```
 npm run build
@@ -128,9 +137,10 @@ or
 yarn run build
 ```
 
-###11 ipfsで公開
+### 11 ipfsで公開
 
 ipfsのインストール
+
 https://dist.ipfs.io/#go-ipfs
 
 ```
@@ -178,15 +188,16 @@ added QmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowf build
  11.10 MiB / 11.10 MiB [===============================================]  99.99%
 ```
 
-最後の　addedの後のQmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowfがipfs内のリポジトリが保存されているアドレス
+最後の　addedの後のQmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowfがipfs内のリポジトリが保存されているアドレスでピン止める
 
-でピンどめしておく
+
 ```
 ipfs pin add QmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowf
 /// ipfs pin add 先程のハッシュ値
 ```
 
 これでipfsに公開したサイトが確認できる
+
 https://gateway.ipfs.io/ipfs/先程のハッシュ
 
 ### 12 ipfsで自分のpeerアドレスに紐づける
@@ -204,5 +215,7 @@ https://gateway.ipfs.io/ipns/先程のハッシュ値
 
 
 ・token poket(IOSのみ)　https://itunes.apple.com/app/token-pocket/id1288636393
+
 ・coin base　https://wallet.coinbase.com/
+
 ・cipher https://www.cipherbrowser.com/
