@@ -5,7 +5,7 @@ truffle react-box
 URL: https://truffleframework.com/boxes/react
 
 ## 使うもの
-・node v10.12.0
+・node v10.12.0
 
 ・truffle URL: https://truffleframework.com/
 
