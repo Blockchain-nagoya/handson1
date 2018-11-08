@@ -20,6 +20,7 @@ URL: https://truffleframework.com/boxes/react
 
 ### ContractAddress
 
+
 実際の成果物
 
 https://gateway.ipfs.io/ipfs/QmWKuefCsTXo5oLQ27NU86j5u8x2qXTFxeUE6gARznrowf/
